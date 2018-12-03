@@ -14,16 +14,16 @@ public class Demo {
 	public static void main(String [] args)
 	{
 	
-//	FirefoxProfile profile = new FirefoxProfile();
-//	profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/zip");
-//	profile.setPreference("browser.download.folderList", 2);
-//	profile.setPreference("browser.download.dir", "d:\\");
-//	WebDriver driver = new FirefoxDriver((Capabilities) profile);
-//		Chrome Browser initialize
-//		System.setProperty("webdriver.chrome.driver", "D:/chromedriver.exe");
-//		WebDriver driver =new ChromeDriver();
-//		
-//		
+	FirefoxProfile profile = new FirefoxProfile();
+	profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/zip");
+	profile.setPreference("browser.download.folderList", 2);
+	profile.setPreference("browser.download.dir", "d:\\");
+	WebDriver driver = new FirefoxDriver((Capabilities) profile);
+		Chrome Browser initialize
+		System.setProperty("webdriver.chrome.driver", "D:/chromedriver.exe");
+		WebDriver driver =new ChromeDriver();
+		
+		
 	Demo d =new Demo();
 	d.Ddemo("Riteshjhhh",26);
 	//		
