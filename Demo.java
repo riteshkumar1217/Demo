@@ -16,6 +16,7 @@ public class Demo {
 	System.out.println("Print git status");
 	System.out.println("second commit");
 	System.out.println("fourth commit");
+	System.out.println("fifth commit");
 	FirefoxProfile profile = new FirefoxProfile();
 	profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/zip");
 	profile.setPreference("browser.download.folderList", 2);
