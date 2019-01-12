@@ -14,6 +14,7 @@ public class Popups {
 		String a = driver.getWindowHandle();
 		driver.findElement(By.xpath("//*[@id="content"]/p[4]/button")).click();
 		driver.switchTo().alert().accept();
+		driver.close();
 
 	}
 
